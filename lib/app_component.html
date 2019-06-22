@@ -1,0 +1,24 @@
+ <material-toggle
+                  [disabled]="false"
+                  [(checked)]="btEnabled"
+                  label="Tap to disable button"
+ >
+    </material-toggle>
+
+ <div>
+<p>
+    <button
+            [disabled]="btEnabled"
+            (click)="changeColor = !changeColor"
+            [ngClass] = "{ 'a': changeColor, 'b': !changeColor }">
+        Hey there
+    </button>
+</p>
+<p *color="changeColor" class="color a">
+    Hey there
+</p>
+<p *color="!changeColor" class="color b">
+    Hey there
+</p>
+
+ </div>

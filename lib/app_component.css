@@ -1,0 +1,45 @@
+:host {
+    /* This is equivalent of the 'body' selector of a page. */
+}
+.color.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border-color: gold;
+    background-color: yellow;
+    text-align: center;
+    font-size: 30px;
+    height: 400px;
+}
+button.a {
+    color: red;
+    border-color: gold;
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+}
+button.b {
+    color: black;
+    border-color: green;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+}
+.color.b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-color: green;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 30px;
+    height: 400px;
+}
